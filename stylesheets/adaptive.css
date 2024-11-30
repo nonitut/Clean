@@ -1,70 +1,74 @@
+/* ////////////////////////// Базовые медиазапросы ////////////////////////// */
+
+/* Очень большие экраны (от 1921px и выше) */
 @media screen and (min-width: 1921px) {
-  
+    /* Стили для экранов шире 1920px */
 }
 
+/* Большие экраны (от 1441px до 1920px) */
 @media screen and (min-width: 1441px) and (max-width: 1920px) {
-
+    /* Стили для экранов от 1441px до 1920px */
 }
 
+/* Средние экраны (от 769px до 1440px) */
 @media screen and (min-width: 769px) and (max-width: 1440px) {
-
+    /* Стили для экранов от 769px до 1440px */
 }
 
-
+/* Планшеты (от 415px до 768px) */
 @media screen and (min-width: 415px) and (max-width: 768px) {
-   
+    /* Стили для планшетов */
 }
 
+/* Мобильные устройства (до 414px) */
 @media screen and (max-width: 414px) {
-
+    /* Стили для мобильных устройств */
 }
 
+/* ////////////////////////// Медиазапросы с ориентацией ////////////////////////// */
 
-/* /////////////////////////////////////////////////////////////////////////////////////// */
-
-/* Большие экраны */
+/* Очень большие экраны */
 @media screen and (min-width: 1921px) and (orientation: landscape) {
-    /* Горизонтальная ориентация */
+    /* Горизонтальная ориентация для экранов шире 1920px */
 }
 
 @media screen and (min-width: 1921px) and (orientation: portrait) {
-    /* Вертикальная ориентация */
+    /* Вертикальная ориентация для экранов шире 1920px */
 }
 
-/* От 1441px до 1920px */
+/* Большие экраны */
 @media screen and (min-width: 1441px) and (max-width: 1920px) and (orientation: landscape) {
-    /* Горизонтальная ориентация */
+    /* Горизонтальная ориентация для экранов от 1441px до 1920px */
 }
 
 @media screen and (min-width: 1441px) and (max-width: 1920px) and (orientation: portrait) {
-    /* Вертикальная ориентация */
+    /* Вертикальная ориентация для экранов от 1441px до 1920px */
 }
 
-/* От 769px до 1440px */
+/* Средние экраны */
 @media screen and (min-width: 769px) and (max-width: 1440px) and (orientation: landscape) {
-    /* Горизонтальная ориентация */
+    /* Горизонтальная ориентация для экранов от 769px до 1440px */
 }
 
 @media screen and (min-width: 769px) and (max-width: 1440px) and (orientation: portrait) {
-    /* Вертикальная ориентация */
+    /* Вертикальная ориентация для экранов от 769px до 1440px */
 }
 
-
-/* От 415px до 768px */
+/* Планшеты */
 @media screen and (min-width: 415px) and (max-width: 768px) and (orientation: landscape) {
-    /* Горизонтальная ориентация */
+    /* Горизонтальная ориентация для планшетов */
 }
 
 @media screen and (min-width: 415px) and (max-width: 768px) and (orientation: portrait) {
-    /* Вертикальная ориентация */
+    /* Вертикальная ориентация для планшетов */
 }
 
-/* Максимум 414px */
+/* Мобильные устройства */
 @media screen and (max-width: 414px) and (orientation: landscape) {
-    /* Горизонтальная ориентация */
+    /* Горизонтальная ориентация для мобильных устройств */
 }
 
 @media screen and (max-width: 414px) and (orientation: portrait) {
-    /* Вертикальная ориентация */
+    /* Вертикальная ориентация для мобильных устройств */
 }
 
